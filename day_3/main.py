@@ -40,7 +40,7 @@ print("The slope is ",slope)
 print("The Euclidean distance is ",distance)
 
 # Calculate the slope, x-intercept and y-intercept of y = 2x -2
-x = input(Enter x: )
+x = input("Enter x: ")
 y = 2*x-2
 print(y)
 

@@ -67,16 +67,16 @@ else:
 # Check if the season is Autumn, Winter, Spring or Summer. If the user input is: September, October or November, the season is Autumn. December, January or February, the season is Winter. March, April or May, the season is Spring June, July or August, the season is Summer
 
 month = int(input("Enter the current month number: "))
-if month = 1 or month = 2 or month = 12:
+if month == 1 or month == 2 or month == 12:
     weather = "Winter"
     print("The current season is", weather)
-elif month = 3 or month = 4 or month = 5:
+elif month == 3 or month == 4 or month == 5:
     weather = "Spring"
     print("The current season is", weather)
-elif month = 6 or month = 7 or month = 8:
+elif month == 6 or month == 7 or month == 8:
     weather = "Summer"
     print("The current season is", weather)
-elif month = 9 or month = 10 or month = 11:
+elif month == 9 or month == 10 or month == 11:
     weather = "Autumn"
     print("The current season is", weather)
 else:
