@@ -1,0 +1,1 @@
+# Conclusions were discussed so no exercise
