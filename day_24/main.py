@@ -6,6 +6,7 @@ import seaborn as sns
 import numpy as np
 import random
 from scipy import *
+from statistics import *
 
 # Creating int numpy arrays
 python_list = [1,2,3,4,5]
@@ -293,7 +294,7 @@ print('min: ', np.min(np_normal_dis))
 print('max: ', np.max(np_normal_dis))
 print('mean: ', np.mean(np_normal_dis))
 print('median: ', np.median(np_normal_dis))
-print('mode: ', stats.mode(np_normal_dis))
+print('mode: ', mode(np_normal_dis))
 print('sd: ', np.std(np_normal_dis))
 
 sns.set()
